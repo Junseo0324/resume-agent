@@ -1,14 +1,8 @@
 # 모든 파일 및 디렉토리 무시
 /*
-
-# .gitignore 파일은 추적 허용
 !/.gitignore
-
-# .agent 폴더 추적 허용
-!/.agent/
-
-# .agent 하위 항목은 다시 무시
-/.agent/*
-
-# 단, .agent/skills 폴더는 추적 허용
+!/# .agent/skills/ 폴더 추적 허용
 !/.agent/skills/
+
+# 프로젝트 템플릿 샘플 파일 추적 허용
+!/my_projects_template_sample.md
